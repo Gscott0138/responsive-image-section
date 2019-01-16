@@ -68,11 +68,6 @@ div {
   background-color: #000;
 }
 
-.img {
-  margin: 0;
-  padding: 0;
-}
-
 @media only screen and (min-width: 25em) {
 
   html {
@@ -90,19 +85,17 @@ div {
   }
 
   .text {
+    vertical-align: bottom;
     margin-right: 0;
     width: 45%;
     text-align: left;
     display: inline-block;
   }
 
-  .img {
-    display: inline-block;
-  }
-
   .img-flex {
-    width: 324px;
-    max-width: 400px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: bottom;
   }
 
 }
@@ -119,12 +112,10 @@ div {
     vertical-align: middle;
   }
 
-  .img {
-    vertical-align: middle;
-  }
-
   .img-flex {
-    width: 500px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 480px;
   }
 
 }
